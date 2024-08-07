@@ -1,0 +1,25 @@
+{
+  "name": "react typescript boilerplate for fivem",
+  "author": "SuperCoolNinja",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "debug": "cross-env VITE_DEBUG_MODE=true vite",
+    "dev": "cross-env VITE_DEBUG_MODE=false vite build --watch",
+    "build": "cross-env VITE_DEBUG_MODE=false tsc && vite build"
+  },
+  "dependencies": {
+    "@types/node": "^22.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.37",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react": "^4.0.0",
+    "cross-env": "^7.0.3",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.9"
+  }
+}
